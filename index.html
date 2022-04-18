@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+
+  <header class="header">
+    <div class="container">
+      <nav class="menu">
+        <a class="logo" href="#">
+          <img src="images/logo.svg" alt="Logo">
+        </a>
+        <div class="burger-align">
+          <div class="simply-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <ul class="menu__list">
+          <li>
+            <a href="#">Our Team</a>
+          </li>
+          <li>
+            <a href="#">Cloud Infra</a>
+          </li>
+          <li>
+            <a href="#">DevOps</a>
+          </li>
+          <li>
+            <a href="#">Software Engineering</a>
+          </li>
+          <li>
+            <a href="#">Careers</a>
+          </li>
+          <li>
+            <a href="#">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="about">
+    <div class="container">
+      <ul class="about__list">
+        <li>
+          <img src="images/person.jpg" alt="Person">
+          <p><strong>James Allen</strong>
+            - is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus
+            PageMaker including versions of Lorem Ipsum.</p>
+        </li>
+        <li>
+          <img src="images/person1.jpg" alt="Preson">
+          <p><strong>James Allen</strong>
+            - is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+            type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+            containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+            including versions of Lorem Ipsum.as survived not only five centuries, but also the leap into electronic
+            typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+            sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.as survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.as survived not only five centuries, but also the leap
+            into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </li>
+      </ul>
+      <ul class="about__links">
+        <li>
+          <strong>EngineerinCo Central Europe</strong>
+          <p>EngineerinCo CEU Kft.</p>
+          <p>
+            Váci út 45. G. ép. 7. em. 1134 Budapest, Hungary
+          </p>
+          <a href="tel:+36212620860" style="margin-top: 24px;">
+            +36 21 2620860
+          </a>
+          <a href="mailto:info@engineerinco.com">
+            info@engineerinco.com
+          </a>
+        </li>
+        <li>
+          <strong>EngineerinCo Middle East</strong>
+          <p>
+            EngineerinCo CIS MMC.
+          </p>
+          <p>
+            36 Zarifa Aliyeva, AZ 1000, Baku Azerbaijan.
+          </p>
+          <a href="tel:+36212620860" style="margin-top: 24px;">
+            +994 55 4600011
+          </a>
+          <a href="mailto:info@engineerinco.com">
+            baku@engineerinco.com
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer__list">
+        <li>All rights reserved.,</li>
+        <li>ENGINEERINCO CEU Kft. </li>
+        <li>1134 Budapest, Váci út 45. G. ép. 7. em.</li>
+        <li>Registration Nr: 01-09-397764</li>
+        <li>VAT: HU27784668</li>
+        <li>info@enigineerinco.com</li>
+        <li>+36 21 2620860</li>
+      </ul>
+    </div>
+  </footer>
+
+
+  <script>
+    let btn = document.querySelector('.simply-burger')
+    let list = document.querySelector('.menu__list')
+
+
+    btn.addEventListener('click', function () {
+      btn.classList.toggle('open')
+      list.classList.toggle('menu__list--active')
+    })
+  </script>
+
+</html>
